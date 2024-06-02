@@ -27,8 +27,14 @@ This guide provides an overview of the steps for adding a Windows 10 computer to
   
 <h3>Step 3: Add the PC to Domain</h3>
   - This PC, Properties, Rename this PC (advanced), go to change and put the domain name.
+  - Add the login and password with permission to join domain.
+  - Go to Active Directory Users and Computers and the Desktop will be added to the domain.
 
    <p align="center">
   <img src="https://github.com/roberta-bueno/Win10Desktop2/assets/135675237/8833af1c-a160-4ed1-9d9f-a0f9e6860ddd"height="60%" width="60%" alt="IP" /></p>
+  <p align="center">
+  <img src="https://github.com/roberta-bueno/Win10Desktop2/assets/135675237/0e579596-4188-4faa-b495-55c449661e66"height="60%" width="60%" alt="IP" /></p>
+  <p align="center">
+  <img src="https://github.com/roberta-bueno/Win10Desktop2/assets/135675237/de92dbfb-f9e5-4234-956d-40fef55b9b34"height="60%" width="60%" alt="IP" /></p>
 
   
