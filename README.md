@@ -17,14 +17,18 @@ This guide provides an overview of the steps for adding a Windows 10 computer to
 </ul>
 
 <h3>Step 1: Set a static IP address to be able to add the PC to Domain</h3>
-  - Go to Control Panel, Network and Internet, Change Adaptor Settings, Properties, set the IP configuration needed.
+  - Go to Control Panel, View Network Status and Tasks, Change Adaptor Settings, Properties, set the IP configuration needed.
   <p align="center">
-  <img src="https://github.com/roberta-bueno/Win10Desktop2/assets/135675237/174d31e0-f55c-4eba-adae-2bf4e6970942" height="60%" width="60%" alt="IP" />
+  <img src="https://github.com/roberta-bueno/Win10Desktop2/assets/135675237/174d31e0-f55c-4eba-adae-2bf4e6970942" height="60%" width="60%" alt="IP" /></p>
   
 
-<h3>Step 2: Install and Activate Internet Information Services (IIS) on Windows</h3>
+<h3>Step 2: Network Settings</h3>
+  - Under Devices on VM manager go to Network Settings/Host only adapter.
+  
+<h3>Step 3: Add the PC to Domain</h3>
+  - This PC, Properties, Rename this PC (advanced), go to change and put the domain name.
 
-- Open Control Panel from the bottom left
-- Under Programs, On the left, select Turn Windows Features On or Off
-- Check Internet Information Services (IIS) and click OK
-- Go to Application Development features and check CGI
+   <p align="center">
+  <img src="https://github.com/roberta-bueno/Win10Desktop2/assets/135675237/8833af1c-a160-4ed1-9d9f-a0f9e6860ddd"height="60%" width="60%" alt="IP" /></p>
+
+  
